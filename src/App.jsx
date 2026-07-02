@@ -18,7 +18,7 @@ export default function App() {
       );
     } else {
       const newItem = { ...plant, quantity: 1 };
-      setCart([...cart, item]);
+      setCart([...cart, newItem]);
     }
   };
 

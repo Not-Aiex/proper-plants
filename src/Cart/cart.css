@@ -1,0 +1,23 @@
+li {
+  display: grid;
+}
+
+div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
+.quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  display: inline;
+}
+
+.cart {
+  display: grid;
+  grid-template-columns: 1fr;
+}
